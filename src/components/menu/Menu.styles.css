@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    background-color: #62705f;
+    justify-content: space-around;
+    padding: 10px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.menuItem {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menuItem:hover {
+    color: #2a332a;
+    transition: 250ms;
+}
+
+.cats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 25px;
+}
+
+.catsItem {
+    width: 270px;
+    height: 270px;
+}
+
+.catsItem img {
+    width: 100%;
+    height: 100%;
+}
+
+.moreHandleBox {
+    display: flex;
+    justify-content: center;
+}
+
+.moreHandle {
+    background-color: #62705f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.moreHandle:hover {
+    background-color: #2a332a;
+    transition: 200ms;
+}
